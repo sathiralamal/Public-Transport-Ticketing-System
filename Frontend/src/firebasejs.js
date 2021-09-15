@@ -6,14 +6,13 @@ import firebase from "firebase/app";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAjS-NRIKCIYOh5zLQg4mE3dLoWFSzBXcM",
-    authDomain: "ticketsystem-e895b.firebaseapp.com",
-    databaseURL: "https://ticketsystem-e895b.firebaseio.com",
-    projectId: "ticketsystem-e895b",
-    storageBucket: "ticketsystem-e895b.appspot.com",
-    messagingSenderId: "195590015564",
-    appId: "1:195590015564:web:aaaca6fba7d06801e642e9",
-    measurementId: process.env.REACT_APP_MeasurementId
+    apiKey: "AIzaSyDeUwj2JMq2m_cn-u3jjFKEl-Yo3mh2Plo",
+    authDomain: "ticketing-seystem.firebaseapp.com",
+    projectId: "ticketing-seystem",
+    storageBucket: "ticketing-seystem.appspot.com",
+    messagingSenderId: "813235961661",
+    appId: "1:813235961661:web:3354c906bd54c1b0dc0f54",
+    measurementId: "G-BR5FGV9TMV"
 };
 
 firebase.initializeApp(firebaseConfig);
