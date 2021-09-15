@@ -13,7 +13,8 @@ const firebaseConfig = {
     storageBucket: "ticketing-seystem.appspot.com",
     messagingSenderId: "813235961661",
     appId: "1:813235961661:web:3354c906bd54c1b0dc0f54",
-    measurementId: "G-BR5FGV9TMV"
+    measurementId: process.env.REACT_APP_MeasurementId
+
 };
 
 firebase.initializeApp(firebaseConfig);
