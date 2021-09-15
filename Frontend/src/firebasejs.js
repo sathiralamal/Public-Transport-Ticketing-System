@@ -22,7 +22,7 @@ const auth =firebase.auth();
 const firestore=firebase.firestore();
 const database=firebase.database();
 const storage = firebase.storage();
-
+const analytics = firebase.analytics();
 
 export {auth,firebase,firestore,database,storage};
 
