@@ -8,7 +8,7 @@ import firebase from "firebase/app";
 const firebaseConfig = {
     apiKey: "AIzaSyAjS-NRIKCIYOh5zLQg4mE3dLoWFSzBXcM",
     authDomain: "ticketsystem-e895b.firebaseapp.com",
-    databaseURL: "https://ticketsystem-e895b.firebaseio.com",
+    databaseURL: "https://ticketsystem-e895b.firebaseio.com/",
     projectId: "ticketsystem-e895b",
     storageBucket: "ticketsystem-e895b.appspot.com",
     messagingSenderId: "195590015564",
